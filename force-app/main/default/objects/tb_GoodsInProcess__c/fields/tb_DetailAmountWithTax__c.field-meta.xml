@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tb_DetailAmountWithTax__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText></inlineHelpText>
+    <label>Total amount</label>
+    <summarizedField>tb_GoodsInProcessDetail__c.tb_AmountWithTax__c</summarizedField>
+    <summaryForeignKey>tb_GoodsInProcessDetail__c.tb_goodsInProcess__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>
